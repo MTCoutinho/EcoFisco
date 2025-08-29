@@ -1,10 +1,8 @@
 # 🌱 EcoFisco
 
-> Sistema de Fiscalização Ecológica
+> Aplicação Web para Compensação de CO2
 
-[![Em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)](https://github.com/MTCoutinho/EcoFisco)
-[![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg)](https://vitejs.dev/)
+
 
 ## 📋 Sobre o Projeto
 
@@ -72,9 +70,9 @@ EcoFisco/
 
 ## 🚧 Status de Desenvolvimento 
 
-**Versão Atual**: 0.1.0 (Alpha)
+**Versão Atual**: 0.1.0 
 
-**Última Atualização**: Janeiro 2025
+**Última Atualização**: 29/08/2025
 
 ### Em Desenvolvimento
 
