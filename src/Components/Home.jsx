@@ -7,7 +7,7 @@ import BannerImage from '../assets/images/home-banner-image.svg'
 
 // Importação dos componentes
 import NavBar from "./NavBar.jsx"
-import SecondaryButton from "./UI/SecondaryButton.jsx"
+import ActionButton from "./UI/ActionButton.jsx"
 
 /**
  * Componente Home - Página inicial da aplicação
@@ -50,9 +50,9 @@ const Home = () => {
                     </p>
 
                     {/* Botão de call-to-action para navegar para seção "Nosso Trabalho" */}
-                    <SecondaryButton onClick={() => document.getElementById('work').scrollIntoView({ behavior: 'smooth' })}>
+                    <ActionButton onClick={() => document.getElementById('work').scrollIntoView({ behavior: 'smooth' })}>
                         Nosso Trabalho <FiArrowRight />
-                    </SecondaryButton>
+                    </ActionButton>
 
                     {/* Texto complementar motivacional */}
                     <p className="primary-text">

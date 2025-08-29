@@ -141,7 +141,6 @@ const Input = ({
 }) => {
   // Estados do componente
   const [showPassword, setShowPassword] = useState(false);     // Controla visibilidade da senha
-  const [isFocused, setIsFocused] = useState(false);           // Controla estado de foco
   const [isValid, setIsValid] = useState(true);                // Controla estado de validação
   const [validationError, setValidationError] = useState('');  // Mensagem de erro de validação
 
@@ -150,16 +149,10 @@ const Input = ({
   const isPasswordField = type === 'password' && showPasswordToggle;
 
   /**
-   * Manipula evento de foco do input
-   */
-  const handleFocus = () => setIsFocused(true);
-  
-  /**
    * Manipula evento de perda de foco do input
    * Executa validação se houver valor no campo
    */
   const handleBlur = (e) => {
-    setIsFocused(false);
     // Valida no blur apenas se há valor
     if (e.target.value) {
       validateInput(e.target.value);
@@ -263,7 +256,6 @@ const Input = ({
         placeholder={placeholder}
         value={value}
         onChange={handleChange}
-        onFocus={handleFocus}
         onBlur={handleBlur}
         required={required}
         {...props}

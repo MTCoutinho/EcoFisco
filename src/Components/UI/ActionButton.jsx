@@ -2,7 +2,7 @@
 import React from 'react';
 
 /**
- * Componente PrimaryButton - Botão principal com estilo primário
+ * Componente ActionButton - Botão de ação com estilo secundário
  * 
  * @param {React.ReactNode} children - Conteúdo do botão (texto, ícones, etc.)
  * @param {string} className - Classes CSS adicionais
@@ -10,9 +10,9 @@ import React from 'react';
  * @param {boolean} disabled - Se o botão está desabilitado
  * @param {Function} onClick - Função chamada ao clicar no botão
  * @param {Object} props - Outras propriedades HTML do botão
- * @returns {JSX.Element} Botão com estilo primário
+ * @returns {JSX.Element} Botão com estilo secundário
  */
-const PrimaryButton = ({ 
+const ActionButton = ({ 
   children, 
   className = '',
   type = 'button',
@@ -20,9 +20,9 @@ const PrimaryButton = ({
   onClick,
   ...props 
 }) => (
-  // Botão principal com estilo primário
+  // Botão secundário com estilo alternativo
   <button 
-    className={`primary-button ${className}`.trim()}
+    className={`secondary-button ${className}`.trim()}
     type={type}
     disabled={disabled}
     onClick={onClick}
@@ -32,4 +32,4 @@ const PrimaryButton = ({
   </button>
 );
 
-export default PrimaryButton;
+export default ActionButton;

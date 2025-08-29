@@ -6,7 +6,7 @@
 
 ## 📋 Sobre o Projeto
 
-XXXXXXXXXXXXXXXXXXXXXX
+???
 
 > ⚠️ **Atenção**: Esta aplicação ainda está em desenvolvimento ativo. Funcionalidades podem estar incompletas ou sujeitas a alterações.
 

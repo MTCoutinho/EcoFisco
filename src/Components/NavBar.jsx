@@ -27,7 +27,7 @@ import ListItemText from '@mui/material/ListItemText';
 import IconButton from '@mui/material/IconButton';
 
 // Importações de componentes UI personalizados
-import { Link, Button } from './UI/index.js';
+import { Link, VariantButton } from './UI/index.js';
 
 /**
  * Componente NavBar - Barra de navegação principal da aplicação
@@ -98,7 +98,7 @@ const NavBar = () => {
 
             {/* Container do botão de login */}
             <div className='navbar-login-container'>
-                <Button variant="primary" onClick={() => window.location.hash = 'login'}>LOGIN</Button>
+                <VariantButton variant="primary" onClick={() => window.location.hash = 'login'}>LOGIN</VariantButton>
             </div>
 
             {/* Ícone do menu hambúrguer para dispositivos móveis */}

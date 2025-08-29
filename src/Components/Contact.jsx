@@ -1,5 +1,5 @@
 // Importações dos componentes de UI
-import SecondaryButton from "./UI/SecondaryButton.jsx"
+import ActionButton from "./UI/ActionButton.jsx"
 import Input from "./UI/Input.jsx"
 
 /**
@@ -33,7 +33,7 @@ const Contact = () => {
                 />
                 
                 {/* Botão de envio do formulário */}
-                <SecondaryButton>Enviar</SecondaryButton>
+                <ActionButton>Enviar</ActionButton>
             </div>
         </div>
     )

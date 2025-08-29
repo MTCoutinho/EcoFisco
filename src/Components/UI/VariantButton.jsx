@@ -2,7 +2,7 @@
 import React from 'react';
 
 /**
- * Componente Button - Botão reutilizável com múltiplas variantes
+ * Componente VariantButton - Botão reutilizável com múltiplas variantes
  * 
  * @param {React.ReactNode} children - Conteúdo do botão (texto, ícones, etc.)
  * @param {string} variant - Variante visual do botão ('primary', 'secondary', 'login', 'signup')
@@ -14,7 +14,7 @@ import React from 'react';
  * @param {Object} props - Outras propriedades HTML do botão
  * @returns {JSX.Element} Elemento de botão estilizado
  */
-const Button = ({
+const VariantButton = ({
   children,
   variant = 'primary',
   type = 'button',
@@ -30,8 +30,6 @@ const Button = ({
    * @returns {string} String com todas as classes CSS aplicáveis
    */
   const getClassName = () => {
-    const baseClass = 'btn';
-    
     // Mapeamento das variantes para suas respectivas classes CSS
     const variantClass = {
       primary: 'primary-button',
@@ -64,4 +62,4 @@ const Button = ({
   );
 };
 
-export default Button;
+export default VariantButton;

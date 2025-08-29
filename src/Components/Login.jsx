@@ -13,7 +13,7 @@ import Footer from './Footer.jsx';
 
 // Importação dos componentes de UI
 import Input from './UI/Input.jsx';
-import Button from './UI/Button.jsx';
+import VariantButton from './UI/VariantButton.jsx';
 import Checkbox from './UI/Checkbox.jsx';
 import Link from './UI/Link.jsx';
 
@@ -135,9 +135,9 @@ const Login = () => {
               </div>
 
               {/* Botão de envio do formulário */}
-              <Button type="submit" variant="login">
+              <VariantButton type="submit" variant="login">
                 Acessar
-              </Button>
+              </VariantButton>
             </form>
 
             {/* Seção para usuários que não possuem conta */}
