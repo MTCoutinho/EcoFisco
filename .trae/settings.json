@@ -1,0 +1,51 @@
+{
+  // ==========================
+  // Workspace Trust (Confiança)
+  // ==========================
+  "security.workspace.trust.enabled": true,
+  "security.workspace.trust.banner": "untilDismissed",
+  "security.workspace.trust.emptyWindow": true,
+  "security.workspace.trust.startupPrompt": "once",
+
+  // ==========================
+  // Arquivos somente leitura
+  // ==========================
+  "files.readonlyFromPermissions": false,
+  "files.readonlyExclude": ["**/*"],
+
+  // ==========================
+  // Editor
+  // ==========================
+  "workbench.editor.autoLockGroups": [],
+  "workbench.editor.alwaysShowActions": true,
+
+  // ==========================
+  // File dialog simplificado
+  // ==========================
+  "files.simpleDialog.enable": true,
+
+  // ==========================
+  // Outras configurações visuais (opcional)
+  // ==========================
+  "explorer.fileNesting.enabled": true,
+  "terminal.integrated.enableFileLinks": true,
+
+  // ==========================
+  // Configurações Trae AI
+  // ==========================
+  "trae.enableFileEditing": true,
+  "trae.trustWorkspace": true,
+  "allowFileSystemAccess": true,
+  "enableFileEditing": true,
+  "allowFileModification": true,
+  "maxFileSize": "10MB",
+  "allowedExtensions": ["*"],
+  "enableDirectEditing": true,
+  "fileEditingMode": "direct",
+  "autoSave": true,
+  "permissions": {
+    "write": true,
+    "modify": true,
+    "create": true
+  }
+}
