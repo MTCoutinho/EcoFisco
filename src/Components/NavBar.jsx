@@ -82,8 +82,8 @@ const NavBar = () => {
                 <img 
                     src={Logo} 
                     alt="Imagem de Logo EcoFisco" 
-                    width="100" 
-                    height="80"
+                    width="140" 
+                    height="140"
                     loading="eager"
                 />
             </div>
